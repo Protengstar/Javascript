@@ -1,4 +1,4 @@
-var penumpang = ['fana','raya'];
+var penumpang = ['budi', undefined, 'joko'];
 var tambahPenumpang = function(namaPenumpang, penumpang) {
     // JIKA ANGKOT KOSONG
     if( penumpang.length == 0 ) {
@@ -12,7 +12,7 @@ var tambahPenumpang = function(namaPenumpang, penumpang) {
             // JIKA ADA KURSI KOSONG
             if( penumpang[i] == undefined ) {
                 // TAMBAH PENUMPANG DI KURSI TERSEBUT
-                penumpang[i] == namaPenumpang;
+                penumpang[i] = namaPenumpang;
                 // KEMBALIKAN KURSI ARRAY & KELUAR DARI FUNCTION
                 return penumpang;
             }
