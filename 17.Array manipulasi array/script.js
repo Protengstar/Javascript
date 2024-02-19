@@ -29,17 +29,17 @@
         
 // METHOD PADA ARRAY
         
-var arr = ["lukman", "sifaul", "nico", "farel"];
+// var arr = ["lukman", "sifaul", "nico", "farel"];
 // 1. JOIN
-    // console.log(arr.join(' - '));
+// console.log(arr.join(' - '));
 
 // 2. PUSH & POP
     // arr.push('dimas', 'oteng');
     // arr.pop();
     // arr.pop();
     // console.log(arr.join(' - '));
-
-// 3.UNSHIFT & SHIFT
+    
+    // 3.UNSHIFT & SHIFT
     // arr.unshift('fana');
-    arr.shift();
-    console.log(arr.join(' - '));
+    // arr.shift();
+    // console.log(arr.join(' - '));
