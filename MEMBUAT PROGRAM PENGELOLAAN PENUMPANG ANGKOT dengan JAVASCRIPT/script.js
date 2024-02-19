@@ -28,6 +28,7 @@ var tambahPenumpang = function(namaPenumpang, penumpang) {
                 penumpang.push(namaPenumpang);
                 // KEMBALIKAN ISI ARRAY & KELUAR DARI FUNCTION
                 return penumpang;
+                
             }
         }
     }
